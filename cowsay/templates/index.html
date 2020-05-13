@@ -1,1 +1,11 @@
 <h1>Cowsay</h1>
+
+<ul>
+    {% for text in text_line %}
+        <li>
+            <a href="/text/{{text.id}}"> {{ text.title }}</a>
+
+        </li>
+
+    {% endfor %}
+</ul>

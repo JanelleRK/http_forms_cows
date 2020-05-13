@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec8a95a-ebfc-4693-be0a-89e261450f3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cowsay/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cowsay/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/http_forms_cows.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/http_forms_cows.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cows/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cowsay/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cowsay/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
