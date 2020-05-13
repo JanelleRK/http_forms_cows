@@ -1,4 +1,4 @@
-"""Cows URL Configuration
+"""cows URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from cowsay.urls import urlpatterns as cowsay_urls
+
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls)
 ]
+
+urlpatterns += cowsay_urls

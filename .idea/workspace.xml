@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec8a95a-ebfc-4693-be0a-89e261450f3d" name="Default Changelist" comment="" />
+    <list default="true" id="4ec8a95a-ebfc-4693-be0a-89e261450f3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cowsay/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cowsay/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/http_forms_cows.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/http_forms_cows.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/Cowsay/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cows/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/cows/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +43,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Cows/Cowsay" />
       <recent name="$PROJECT_DIR$/Cows" />
     </key>
   </component>
@@ -41,6 +68,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589384032328">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="488" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/2048.0.3840.2160/0.0.2048.1152@0.0.2048.1152" timestamp="1589384032328" />
+    <state x="762" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589385771816">
+      <screen x="0" y="23" width="2048" height="1057" />
+    </state>
+    <state x="762" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2048.23.3840.2137/0.23.2048.1057@0.23.2048.1057" timestamp="1589385771816" />
+    <state x="555" y="215" key="SettingsEditor" timestamp="1589384211463">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="555" y="215" key="SettingsEditor/2048.0.3840.2160/0.0.2048.1152@0.0.2048.1152" timestamp="1589384211463" />
     <state x="662" y="408" key="com.intellij.ide.util.TipDialog" timestamp="1589318002213">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
