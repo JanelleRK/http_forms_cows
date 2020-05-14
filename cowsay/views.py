@@ -7,6 +7,7 @@ from subprocess import PIPE, run
 def index(request):
     if request.method == 'POST':
         form = AddTextForm(request.POST)
+
         if form.is_valid():
             data = form.cleaned_data
             CowsayTextInput.objects.create(
@@ -17,6 +18,7 @@ def index(request):
             cow = result.stdout
             form = AddTextForm()
             return render(request, 'index.html', {'form': form, 'cow': cow})
+
         form = AddTextForm()
         return render(request, 'index.html', {'form': form})
 
