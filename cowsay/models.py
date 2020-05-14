@@ -1,5 +1,12 @@
 from django.db import models
 
 # Create your models here.
-class CowsayText(models.Model):
-    cowsay_text = models.TextField()
+class CowsayTextInput(models.Model):
+    cowsay_input = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.cowsay_input
+
+
+class CowsayTextOutput(models.Model):
+    cowsay_output = models.TextField()

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec8a95a-ebfc-4693-be0a-89e261450f3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/http_forms_cows.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/http_forms_cows.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cowsay/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cowsay/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cowsay/migrations/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cowsay/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cowsay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cowsay/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
