@@ -1,11 +1,10 @@
 <h1>Cowsay</h1>
 
-<ul>
-    {% for text in text_line %}
-        <li>
-            <a href="/text/{{text.id}}"> {{ text.title }}</a>
-
-        </li>
-
-    {% endfor %}
-</ul>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <pre>
+        {{ cow }}
+    </pre>
+    <button type="submit">Submit this!</button>
+</form>
