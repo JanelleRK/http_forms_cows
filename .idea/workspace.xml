@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f7e0dde5-ff69-472c-84b0-f6518ae61dfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/http_forms_cows.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/http_forms_cows.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="4ec8a95a-ebfc-4693-be0a-89e261450f3d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cowsay/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cowsay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cowsay/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cowsay/views.py" afterDir="false" />
+>>>>>>> 3fd8b7275e418d01e7b565dc26db27f0983856de
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
