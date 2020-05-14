@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from cowsay.models import CowsayTextInput, CowsayTextOutput
+from cowsay.models import CowsayTextInput
 from cowsay.forms import AddTextForm
 from subprocess import PIPE, run
 
@@ -23,5 +23,5 @@ def index(req):
 
 
 def history(req):
-    previous_text = CowsayTextInput.objects.filter().order_by('-id')[:10]
+    previous_text = CowsayTextInput.objects.all().order_by('-id')[:10]
     return render(req, 'history.html', {"previous_text": previous_text})

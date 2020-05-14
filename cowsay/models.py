@@ -8,5 +8,3 @@ class CowsayTextInput(models.Model):
         return self.cowsay_input
 
 
-class CowsayTextOutput(models.Model):
-    cowsay_output = models.TextField()
