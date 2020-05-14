@@ -1,0 +1,10 @@
+#!/Users/janellekuhns/q4_se_2020/http_forms_cows/http_forms_cows/venv/bin/python
+# PBR Generated from 'console_scripts'
+
+import sys
+
+from render import run
+
+
+if __name__ == "__main__":
+    sys.exit(run())

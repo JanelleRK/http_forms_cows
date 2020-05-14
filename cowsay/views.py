@@ -4,25 +4,24 @@ from cowsay.forms import AddTextForm
 from subprocess import PIPE, run
 
 # Create your views here.
-def index(request):
-    if request.method == 'POST':
-        form = AddTextForm(request.POST)
+def index(req):
+    if req.method == "POST":
+        form = AddTextForm(req.POST)
 
         if form.is_valid():
             data = form.cleaned_data
             CowsayTextInput.objects.create(
-                cowsay_input=data['inputtext']
+                cowsay_input=data['add_text']
             )
-            command = ['cowsay', data['inputtext']]
+            command = ['cowsay', data['add_text']]
             result = run(command, stdout=PIPE, stderr=PIPE, universal_newlines=True)
             cow = result.stdout
             form = AddTextForm()
-            return render(request, 'index.html', {'form': form, 'cow': cow})
+            return render(req, 'index.html', {'form': form, 'cow': cow})
+    form = AddTextForm()
+    return render(req, 'index.html', {'form': form})
 
-        form = AddTextForm()
-        return render(request, 'index.html', {'form': form})
 
-
-def history(request):
-        updated_text = CowsayTextInput.objects.filter().order_by('-id')[:10]
-        return render(request, 'history.html', {'updated_text': updated_text})
+def history(req):
+    previous_text = CowsayTextInput.objects.filter().order_by('-id')[:10]
+    return render(req, 'history.html', {"previous_text": previous_text})
